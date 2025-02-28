@@ -53,21 +53,6 @@ export class UsersController {
     return user;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
   @Get('/:id')
   findUser(@Param('id') id: string) {
     return this.userService.findOne(parseInt(id));
