@@ -6,6 +6,7 @@ import {
   Column,
   Entity,
   PrimaryGeneratedColumn,
+  OneToMany
 } from 'typeorm';
 
 @Entity()
