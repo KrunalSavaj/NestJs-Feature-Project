@@ -1,11 +1,11 @@
 
-import { randomBytes, scrypt as _scrypt } from 'crypto';
 import {
-  BadRequestException,
   Injectable,
   NotFoundException,
+  BadRequestException,
 } from '@nestjs/common';
 import { promisify } from 'util';
+import { randomBytes, scrypt as _scrypt } from 'crypto';
 import { UsersService } from './users.service';
 
 const scrypt = promisify(_scrypt);
