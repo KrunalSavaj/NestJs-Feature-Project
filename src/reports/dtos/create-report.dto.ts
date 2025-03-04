@@ -1,10 +1,10 @@
 import {
-  IsString,
-  IsNumber,
   Min,
   Max,
-  IsLongitude,
+  IsString,
+  IsNumber,
   IsLatitude,
+  IsLongitude,
 } from 'class-validator';
 
 export class CreateReportDto {
