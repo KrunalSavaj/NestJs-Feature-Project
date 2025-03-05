@@ -9,14 +9,27 @@ export class Report {
   @Column()
   price: number;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @Column()
+  year: number;
   @Column()
   make: string;
 
   @Column()
   model: string;
-
-  @Column()
-  year: number;
 
   @Column()
   lng: number;
