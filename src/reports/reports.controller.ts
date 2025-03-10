@@ -5,7 +5,36 @@ import { AuthGuard } from 'src/guards/auth.guard';
 
 @Controller('reports')
 export class ReportsController {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   constructor(private reportsService: ReportsService) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   @Post()
   @UseGuards(AuthGuard)
