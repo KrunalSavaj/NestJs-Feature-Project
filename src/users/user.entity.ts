@@ -1,13 +1,13 @@
 
 import { Report } from 'src/reports/report.entity';
 import {
+  Column,
+  Entity,
+  OneToMany,
   AfterInsert,
   AfterRemove,
   AfterUpdate,
-  Column,
-  Entity,
   PrimaryGeneratedColumn,
-  OneToMany
 } from 'typeorm'; 
 
 @Entity()

@@ -1,12 +1,12 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ConfigModule, ConfigService } from '@nestjs/config';
-import { AppController } from './app.controller';
+import { User } from './users/user.entity';
 import { AppService } from './app.service';
+import { AppController } from './app.controller';
+import { Report } from './reports/report.entity';
 import { UsersModule } from './users/users.module';
 import { ReportsModule } from './reports/reports.module';
-import { User } from './users/user.entity';
-import { Report } from './reports/report.entity';
 
 @Module({
   imports: [
