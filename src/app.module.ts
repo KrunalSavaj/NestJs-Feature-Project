@@ -25,22 +25,12 @@ import { Report } from './reports/report.entity';
         };
       },
     }),
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    // TypeOrmModule.forRoot({
+    //   type: 'sqlite',
+    //   database: 'db.sqlite',
+    //   entities: [User, Report],
+    //   synchronize: true,
+    // }),
     UsersModule,
     ReportsModule,
   ],
