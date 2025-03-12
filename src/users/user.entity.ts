@@ -1,4 +1,3 @@
-
 import { Report } from 'src/reports/report.entity';
 import {
   Column,
@@ -8,7 +7,7 @@ import {
   AfterRemove,
   AfterUpdate,
   PrimaryGeneratedColumn,
-} from 'typeorm'; 
+} from 'typeorm';
 
 @Entity()
 export class User {
@@ -17,6 +16,9 @@ export class User {
 
   @Column()
   email: string;
+
+  @Column({ default: true })
+  admin: boolean;
 
   @Column()
   password: string;
