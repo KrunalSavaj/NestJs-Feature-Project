@@ -1,5 +1,5 @@
-import { MiddlewareConsumer, Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { MiddlewareConsumer, Module } from '@nestjs/common';
 import { User } from './user.entity';
 import { AuthService } from './auth.service';
 import { UsersService } from './users.service';

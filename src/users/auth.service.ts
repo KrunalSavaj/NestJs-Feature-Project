@@ -4,8 +4,8 @@ import {
   BadRequestException,
 } from '@nestjs/common';
 import { promisify } from 'util';
-import { randomBytes, scrypt as _scrypt } from 'crypto';
 import { UsersService } from './users.service';
+import { randomBytes, scrypt as _scrypt } from 'crypto';
 
 const scrypt = promisify(_scrypt);
 
